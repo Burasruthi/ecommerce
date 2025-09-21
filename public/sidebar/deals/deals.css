@@ -1,0 +1,81 @@
+.sideBar-hot{
+    height: 350px;
+    width: 270px;
+    background-color: rgba(155, 154, 154, 0.087);
+    margin: 20px 5px 10px 10px;
+    border-radius: 3px;
+
+}
+.sideBar-hot h3{
+    padding: 10px 0px 0px 13px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.sidebar-hot-details{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.sidebar-hot-details h4,p{
+    margin: 5px;
+    padding: 5px;
+    font-weight: 400;
+}
+.sidebar-hot-details h4{
+    font-size: 16px;
+    padding-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    
+}
+.sidebar-hot-details p{
+    font-weight:lighter;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 10px;
+    padding-right: 10px;
+   color: rgba(128, 128, 128, 0.763);
+}
+.sideBar-price{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(155, 154, 154, 0.087);
+}
+.sideBar-price{
+    height: 110px;
+    width: 200px;
+    background-color: rgba(155, 154, 154, 0.087);
+    margin-top: -3px;
+    margin-left: 10px;
+    border-radius: 3px;
+}
+.sideBar-price h3{
+    padding: 10px 0px 0px 13px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.sideBar-color{
+    height: 90px;
+    width: 200px;
+    background-color: rgba(155, 154, 154, 0.087);
+    margin-top: -3px;
+    margin-left: 10px;
+    border-radius: 3px;
+}
+.sideBar-color h3{
+    padding: 10px 0px 0px 13px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.sideBar-brand{
+    height: 150px;
+    width: 200px;
+    background-color: rgba(155, 154, 154, 0.087);
+    margin-top: -3px;
+    margin-left: 10px;
+    border-radius: 3px;
+}
+.sideBar-brand h3{
+    padding: 10px 0px 0px 13px;
+    font-size: 16px;
+    font-weight: 600;
+}

@@ -1,0 +1,10 @@
+.hero img{
+    height: 400px;
+    width: 970px;
+    margin-top: 20px;
+}
+.filter{
+    height: 40px;
+    width: 970px;
+    background-color: gray;
+}

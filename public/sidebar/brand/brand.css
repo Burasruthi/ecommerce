@@ -1,0 +1,36 @@
+.brand
+{
+    height: 260px;
+    width: 270px;
+    background-color: rgba(155, 154, 154, 0.087);
+    margin: 20px 5px 10px 10px;
+    border-radius: 3px;
+}
+.brand h3{
+    padding: 10px 0px 0px 13px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.brand-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.brand-details:hover{
+    color: blue;
+}
+.brand-details span {
+    padding-left: 20px;
+}
+.brand-details p {
+    padding-right: 10px;
+    color: rgba(128, 128, 128, 0.719);
+    font-size: 15px;
+}
+
+/* .brand-details p:hover{
+    color: blue;
+} */
