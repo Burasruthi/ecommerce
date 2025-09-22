@@ -1,22 +1,25 @@
 .card{
     display: flex;
-    width: 900px;
+    width: 950px;
     flex-wrap: wrap;
-    margin: 5px -20px;
+    margin: 5px 20px;
+    /* border: 2px solid black; */
 }
 
 .product{
     height: 220px;
-    width: 255px;
+    width: 270px;
     border: 2px solid rgba(128, 128, 128, 0.285);
     margin: 20px;
     border-radius: 3px;
+      
     
 }
 
 .product img{
     height: 100px;
-    margin: 20px;
+    width: 200px;
+    margin: 20px 10px 20px 34px;
 }
 .image-details{
     position: relative;
