@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
-import products from "../../../../data";
+import products from "../../../src/data";
 import './brand.css'
-import Products from '../../products/Products';
+import Products from '../../../src/components/section/products/Products';
 
 const Brand = () => {
     // console.log(products)

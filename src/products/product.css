@@ -2,12 +2,12 @@
     display: flex;
     width: 900px;
     flex-wrap: wrap;
-    margin: 10px 20px;
+    margin: 5px -20px;
 }
 
 .product{
     height: 220px;
-    width: 250px;
+    width: 255px;
     border: 2px solid rgba(128, 128, 128, 0.285);
     margin: 20px;
     border-radius: 3px;
@@ -66,4 +66,20 @@
     padding-right: 5px;
     font-size: 15px;
     color: red;
+}
+.card-down{
+    display: flex;
+    margin-top: -15px;
+    height: 39px;
+    justify-content: center;
+    align-items: center;
+     width: 970px;
+    background-color: rgba(128, 128, 128, 0.107);
+    border-radius: 5px;
+    gap: 40px;
+    margin-top: -4px;
+}
+.card-down .s{
+    background-color: rgba(100, 179, 239, 0.918);
+    padding: 10px;
 }

@@ -1,11 +1,18 @@
 .price{
     height: 200px;
     width: 250px;
-    background-color: rgba(128, 128, 128, 0.447);
+    background-color: rgba(128, 128, 128, 0.105);
     margin: 10px;
     border-radius: 5px;
 }
 .price h3{
     padding: 15px;
     margin-bottom: -5px;
+}
+.price-details{
+    margin-left: 40px;
+    
+}
+.price-details-inner{
+    padding: 5px;
 }

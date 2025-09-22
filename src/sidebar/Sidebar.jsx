@@ -4,13 +4,13 @@ import Price from './price/Price'
 import Colors from './colors/Colors'
 import Brand from './brand/Brand'
 
-const Sidebar = ({handleClick, handlePrice, clickedBrand}) => {
+const Sidebar = ({handleClick, handlePrice, clickedBrand,  handleColor, handleDeals, clickedDeals}) => {
   return (
     <div>
-        <Deals/>
+        <Deals handleDeals={handleDeals} clickedDeals={clickedDeals}/>
         <Price handlePrice={handlePrice}/>
-        <Colors/>
-        <Brand handleClick={handleClick} clickedBrand={clickedBrand}/>
+        <Colors handleColor={handleColor}/>
+        <Brand handleClick={handleClick} clickedBrand={clickedBrand} />
 
     </div>
   )

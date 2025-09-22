@@ -37,7 +37,9 @@ const Brand = ({handleClick, clickedBrand }) => {
             <span onClick={()=>handleClick("Reebok")}  >Reebok</span>
             <p>{reebokCount}</p>
         </div>
-        
+        <div className='more'>
+            <p>MORE</p>
+        </div>
     </div>
   )
 }

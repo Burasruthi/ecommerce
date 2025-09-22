@@ -9,7 +9,9 @@ const data =[
     company: "Nike",
     color: "white",
     category: "sneakers",
-    priceRange: "$100-$150"
+    priceRange: "$150-$200",
+    isHot:"true",
+    percent: "21%ON"
   },
   {
     id:"2",
@@ -21,7 +23,9 @@ const data =[
     company: "Adidas",
     color: "black",
     category: "running",
-    priceRange: "$100-$150"
+    priceRange: "$100-$150",
+    isHot:"true",
+    percent: "8%OFF"
   },
   {
     id:"3",
@@ -33,7 +37,9 @@ const data =[
     company: "Puma",
     color: "blue",
     category: "sneakers",
-    priceRange: "$100-$150"
+    priceRange: "$100-$150",
+    isHot:"false",
+     percent: "7%OFF"
   },
   {
     id:"5",
@@ -45,7 +51,9 @@ const data =[
     company: "Reebok",
     color: "white",
     category: "classic",
-    priceRange: "$50-$100"
+    priceRange: "$50-$100",
+    isHot:"false",
+     percent: "10%OFF"
   },
   {
     id:"6",
@@ -57,7 +65,9 @@ const data =[
     company: "Vans",
     color: "black",
     category: "skate",
-    priceRange: "$50-$100"
+    priceRange: "$50-$100",
+    isHot:"false",
+    percent: "5%OFF"
   },
   {
     id:"7",
@@ -69,7 +79,9 @@ const data =[
     company: "Nike",
     color: "yellow",
     category: "casual",
-    priceRange: "$50-$100"
+    priceRange: "$50-$100",
+    isHot:"true",
+    percent: "5%OFF"
   },
   {
     id:"8",
@@ -81,7 +93,9 @@ const data =[
     company: "Nike",
     color: "blue",
     category: "sneakers",
-    priceRange: "$100-$150"
+    priceRange: "$100-$150",
+    isHot:"true",
+    percent: "5%OFF"
   },
   {
     id:"9",
@@ -93,7 +107,9 @@ const data =[
     company: "Nike",
     color: "orange",
     category: "running",
-    priceRange: "$100-$150"
+    priceRange: "$100-$150",
+     isHot:"true",
+     percent: "8%OFF"
   },
   {
     id:"10",
@@ -105,7 +121,9 @@ const data =[
     company: "Adidas",
     color: "white",
     category: "sneakers",
-    priceRange: "$100-$150"
+    priceRange: "$100-$150",
+     isHot:"true",
+      percent: "8%OFF"
   },
   {
     id:"11",
@@ -117,7 +135,9 @@ const data =[
     company: "Puma",
     color: "red",
     category: "casual",
-    priceRange: "$50-$100"
+    priceRange: "$50-$100",
+     isHot:"true",
+      percent: "9%OFF"
   },
   {
     id:"12",
@@ -129,7 +149,9 @@ const data =[
     company: "Reebok",
     color: "red",
     category: "training",
-    priceRange: "$100-$150"
+    priceRange: "$100-$150",
+     isHot:"true",
+      percent: "20%OFF"
   },
   {
     id:"13",
@@ -141,7 +163,9 @@ const data =[
     company: "Vans",
     color: "blue",
     category: "skate",
-    priceRange: "$50-$100"
+    priceRange: "$50-$100",
+     isHot:"true",
+     percent: "20%OFF"
   },
   {
     id:"14",
@@ -153,7 +177,9 @@ const data =[
     company: "Adidas",
     color: "red",
     category: "casual",
-    priceRange: "$50-$100"
+    priceRange: "$50-$100",
+     isHot:"true",
+     percent: "15%OFF"
   },
   {
     id:"15",
@@ -165,19 +191,23 @@ const data =[
     company: "Adidas",
     color: "blue",
     category: "running",
-    priceRange: "$100-$150"
+    priceRange: "$100-$150",
+     isHot:"false",
+     percent: "20%OFF"
   },
   {
     id:"16",
-    img: "https://m.media-amazon.com/images/I/71yxkQ6N7uL._AC_UX575_.jpg",
+    img: "https://m.media-amazon.com/images/I/81zyl2Lpu2L._SX695_.jpg",
     title: "Nike Blazer Mid '77",
     reviews: "(200 reviews)",
     prevPrice: "$120.00",
     newPrice: "95",
     company: "Nike",
-    color: "orange",
+    color: "black",
     category: "classic",
-    priceRange: "$50-$100"
+    priceRange: "$50-$100",
+    isHot:"false",
+    percent: "20%OFF"
   },
   {
     id:"17",
@@ -189,7 +219,9 @@ const data =[
     company: "Adidas",
     color: "black",
     category: "classic",
-    priceRange: "$50-$100"
+    priceRange: "$50-$100",
+    isHot:"false",
+    percent: "15%OFF"
   },
   {
     id:"18",
@@ -201,7 +233,9 @@ const data =[
     company: "Puma",
     color: "white",
     category: "casual",
-    priceRange: "$100-$150"
+    priceRange: "$100-$150",
+    isHot:"true",
+    percent: "10%OFF"
   },
   {
     id:"20",
@@ -213,7 +247,9 @@ const data =[
     company: "Reebok",
     color: "white",
     category: "tennis",
-    priceRange: "$50-$100"
+    priceRange: "$50-$100",
+    isHot:"true",
+    percent: "10%OFF"
   },
   {
     id:"21",
@@ -225,7 +261,9 @@ const data =[
     company: "Vans",
     color: "pink",
     category: "skate",
-    priceRange: "$50-$100"
+    priceRange: "$50-$100",
+    isHot:"true",
+    percent: "10%OFF"
   },
   {
     id:"22",
@@ -237,7 +275,9 @@ const data =[
     company: "Adidas",
     color: "green",
     category: "platform",
-    priceRange: "$100-$150"
+    priceRange: "$100-$150",
+    isHot:"true",
+    percent: "10%OFF"
   },
    {
     id:"23",
@@ -245,11 +285,13 @@ const data =[
     title: "Adidas NMD R1",
     reviews: "(88 reviews)",
     prevPrice: "$43.54",
-    newPrice: "$71.95",
+    newPrice: "71.95",
     company: "Adidas",
     color: "blue",
     category: "platform",
-    priceRange: "$50-$100"
+    priceRange: "$50-$100",
+    isHot:"false",
+    percent: "10%ON"
   },
   {
     id:"24",
@@ -261,7 +303,9 @@ const data =[
     company: "Adidas",
     color: "gray",
     category: "platform",
-    priceRange: "$100-$150"
+    priceRange: "$100-$150",
+    isHot:"true",
+    percent: "5%OFF"
   },
   {
     id:"25",
@@ -269,48 +313,158 @@ const data =[
     title: "Nike Air Monarch IV",
     reviews: "(88 reviews)",
     prevPrice: "$89.99",
-    newPrice: "$90.99",
+    newPrice: "90.99",
     company: "Nike",
     color: "gray",
     category: "platform",
-    priceRange: "$50-$100"
+    priceRange: "$50-$100",
+    isHot:"true",
+    percent: "1%ON"
   },
    {
     id:"26",
     img: "https://m.media-amazon.com/images/I/71xX+mHmkUL._AC_SX535_.jpg",
     title: "Puma Cali Sport",
     reviews: "(88 reviews)",
-    prevPrice: "$85.00",
-    newPrice: "$46.03",
+    prevPrice: "185.00",
+    newPrice: "146.03",
     company: "Puma",
     color: "black",
     category: "platform",
-    priceRange: "$50-$100"
+    priceRange: "$150-$200",
+    isHot:"true",
+    percent: "10%OFF"
   },
    {
     id:"27",
     img: "https://m.media-amazon.com/images/I/71f0XXNRpVL._AC_SX535_.jpg",
     title: "Puma Cali Sport",
     reviews: "(88 reviews)",
-    prevPrice: "$70.19",
-    newPrice: "$50.02",
+    prevPrice: "$170.19",
+    newPrice: "150.02",
     company: "Puma",
     color: "white",
     category: "platform",
-    priceRange: "$50-$100"
+    priceRange: "$150-$200",
+    isHot:"false",
+    percent: "10%OFF"
   },
    {
     id:"28",
     img: "https://m.media-amazon.com/images/I/61H9mi6tOQL._AC_SX535_.jpg",
     title: "Puma Cali Sport",
     reviews: "(88 reviews)",
-    prevPrice: "$33.00",
-    newPrice: "$100.03",
+    prevPrice: "$133.00",
+    newPrice: "120.03",
     company: "Puma",
     color: "black",
     category: "platform",
-    priceRange: "$50-$100"
+    priceRange: "$150-$200",
+    isHot:"false",
+    percent: "5%OFF"
+  },
+  {
+    id:"29",
+    img: "https://m.media-amazon.com/images/I/71+zW8Se0AL._SX625_.jpg",
+    title: "Nike Air Monarch IV ",
+    reviews: "(70 reviews)",
+    prevPrice: "$140.00",
+    newPrice: "120.03",
+    company: "Nike",
+    color: "red",
+    category: "platform",
+    priceRange: "$150-$200",
+    isHot:"false",
+    percent: "10%OFF"
    
   },
+   {
+    id:"30",
+    img: "https://m.media-amazon.com/images/I/61H4UrqqHxL._SX625_.jpg",
+    title: "Nike Air Monarch IV ",
+    reviews: "(55 reviews)",
+    prevPrice: "$90.00",
+    newPrice: "60.03",
+    company: "Nike",
+    color: "red",
+    category: "platform",
+    priceRange: "$50-$100",
+    isHot:"true",
+    percent: "20%OFF"
+   
+  },
+   {
+    id:"31",
+    img: "https://m.media-amazon.com/images/I/81eXibJNWpL._SX675_.jpg",
+    title: "Nike Air Monarch IV ",
+    reviews: "(70 reviews)",
+    prevPrice: "$40.00",
+    newPrice: "50.03",
+    company: "Nike",
+    color: "red",
+    category: "platform",
+    priceRange: "$50-$100",
+   isHot:"true",
+   percent: "10%ON"
+  },
+  {
+    id:"32",
+    img: "https://m.media-amazon.com/images/I/81NUHJxVeML._SX625_.jpg",
+    title: "Nike Air Monarch IV ",
+    reviews: "(40 reviews)",
+    prevPrice: "$80.00",
+    newPrice: "27.03",
+    company: "Nike",
+    color: "red",
+    category: "platform",
+    priceRange: "$25-$50",
+   isHot:"true",
+   percent: "25%OFF"
+  },
+   {
+    id:"33",
+    img: "https://m.media-amazon.com/images/I/818dryBJPdL._SX695_.jpg",
+    title: "Nike Air Monarch IV ",
+    reviews: "(35 reviews)",
+    prevPrice: "$80.00",
+    newPrice: "29.03",
+    company: "Nike",
+    color: "blue",
+    category: "platform",
+    priceRange: "$25-$50",
+    isHot:"true",
+    percent: "30%OFF"
+   
+  },
+   {
+    id:"34",
+    img: "https://m.media-amazon.com/images/I/71LIWJ-zNaL._SX695_.jpg",
+    title: "Nike Air Monarch IV ",
+    reviews: "(35 reviews)",
+    prevPrice: "$80.00",
+    newPrice: "29.03",
+    company: "Nike",
+    color: "white",
+    category: "platform",
+    priceRange: "$25-$50",
+    isHot:"true",
+    percent: "30%OFF"
+   
+  },
+  {
+    id:"35",
+    img: "https://m.media-amazon.com/images/I/71RYJAai8PL._SX695_.jpg",
+    title: "Puma Cali Sport ",
+    reviews: "(30 reviews)",
+    prevPrice: "$80.00",
+    newPrice: "29.03",
+    company: "Puma",
+    color: "blue",
+    category: "platform",
+    priceRange: "$25-$50",
+    isHot:"true",
+    percent: "30%OFF"
+  },
+
 ];
 export default data;

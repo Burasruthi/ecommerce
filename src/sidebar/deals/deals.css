@@ -1,7 +1,7 @@
 .deals{
-    height: 300px;
+    height: 220px;
     width: 250px;
-    background-color: rgba(128, 128, 128, 0.447);
+    background-color: rgba(128, 128, 128, 0.105);
     margin: 10px;
     border-radius: 5px;
 }
@@ -13,12 +13,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    margin: -10px;
+    cursor: pointer;
 }
-.deals-details span{
-    padding: 10px;
 
+.deals-details span{
+    padding-left: 30px;
+    font-size: 15px;
 }
 .deals-details p{
-    padding-right: 10px;
+    padding-right: 30px;
+    
 }
