@@ -27,25 +27,25 @@ const Navbar = () => {
     </div>
     <div className='resposive'>
         <div className='navSmall'>
-            <img src="https://cdn.prod.website-files.com/605826c62e8de87de744596e/676384c5f1eae7a1e79ae8d3_67637f0be47077919bae0b79_screenshot-2024-12-18-at-72302-pm-6762d481479f6.webp"/>
+            <img src="https://cdn.prod.website-files.com/605826c62e8de87de744596e/676384c5f1eae7a1e79ae8d3_67637f0be47077919bae0b79_screenshot-2024-12-18-at-72302-pm-6762d481479f6.webp" alt='img'/>
         </div>
         <h1 style={{fontSize: "50px", paddingLeft:"40px"}}>Category</h1>
         <div className='navSmall-Category'>
             
             <div className='category'>
-                <img src='https://cdn4.iconfinder.com/data/icons/peppyicons-rounded/512/user8-512.png'/>
+                <img src='https://cdn4.iconfinder.com/data/icons/peppyicons-rounded/512/user8-512.png' alt='img'/>
                 <p>Men's</p>
             </div>
             <div className='category'>
-                <img src='https://cdn4.iconfinder.com/data/icons/peppyicons-rounded/512/user3-512.png'/>
+                <img src='https://cdn4.iconfinder.com/data/icons/peppyicons-rounded/512/user3-512.png' alt='img'/>
                 <p>Women's</p>
             </div>
             <div className='category'>
-                <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_bNwNV8fQgwXpAB28tRfQ99EOZ8WPgHlQ9DhBIQBMwUhWa6b3cwJrOcxuyMA9ncEjEeg&usqp=CAU'/>
+                <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_bNwNV8fQgwXpAB28tRfQ99EOZ8WPgHlQ9DhBIQBMwUhWa6b3cwJrOcxuyMA9ncEjEeg&usqp=CAU' alt='img'/>
                 <p>Boy's</p>
             </div>
             <div className='category'>
-                <img src='https://cdn4.iconfinder.com/data/icons/avatars-xmas-giveaway/128/girl_avatar_child_kid-512.png'/>
+                <img src='https://cdn4.iconfinder.com/data/icons/avatars-xmas-giveaway/128/girl_avatar_child_kid-512.png' alt='img'/>
                 <p>Girl's</p>
             </div>
         </div>
