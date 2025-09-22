@@ -40,3 +40,11 @@
     font-size: 23px;
     padding: 10px 9px 0 0;
 }
+@media screen and (max-width: 320px){
+    .hero img{
+    display: none;
+    }
+    .filter{
+        display: none;
+    }
+}

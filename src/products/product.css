@@ -83,3 +83,11 @@
     background-color: rgba(100, 179, 239, 0.918);
     padding: 10px;
 }
+@media screen and (max-width: 320px){
+    .product{
+    display: none;
+    }
+    .card-down{
+        display: none;
+    }
+}

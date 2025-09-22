@@ -22,3 +22,8 @@
     cursor: pointer;
     border: 2px solid rgba(255, 255, 255, 0.511);
 }
+@media screen and (max-width: 320px){
+    .colors{
+    display: none;
+}
+}
