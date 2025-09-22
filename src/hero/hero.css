@@ -1,11 +1,11 @@
 .hero img{
     height: 250px;
-    width: 970px;
+    width: 77vw;
     margin-top: 20px;
 }
 .filter{
     height: 40px;
-    width: 970px;
+    width: 77vw;
     background-color: rgba(128, 128, 128, 0.105);
     display: flex;
     padding: 5px;
