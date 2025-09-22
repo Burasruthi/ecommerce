@@ -17,4 +17,4 @@ A simple e-commerce(ShoeMart) web application built with React, HTML, CSS, and J
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/Burasruthi/e-commerce
-cd ecommerce
+netify clone https://graceful-croquembouche-c5a6f0.netlify.app/
